@@ -86,3 +86,7 @@ timeout /t 1 /nobreak > NUL
 cls
 color 09
 echo Please Wait, Generating key and letter code...
+timeout /t 1 /nobreak > NUL
+set 
+set /a result = %eckey%+%eclettertc%
+echo Successfully 
