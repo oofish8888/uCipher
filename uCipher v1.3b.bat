@@ -85,4 +85,4 @@ goto EC
 timeout /t 1 /nobreak > NUL
 cls
 color 09
-echo 
+echo Please Wait, Generating key and letter code...
