@@ -4,8 +4,7 @@ cls
 color 09
 title uCipher v1.3b
 timeout /t 1 /nobreak > NUL
-echo Welcome to
-echo                                                                                                                                                                                                                                                                                                                                                                                                                bbbbbbbb            
+echo Welcome to                                                                                                                                                                                                                  
 echo                         CCCCCCCCCCCCC  iiii                    hhhhhhh                                                                                  1111111            333333333333333   b::::::b            
 echo                      CCC::::::::::::C i::::i                   h:::::h                                                                                 1::::::1           3:::::::::::::::33 b::::::b            
 echo                    CC:::::::::::::::C  iiii                    h:::::h                                                                                1:::::::1           3::::::33333::::::3b::::::b            
@@ -49,7 +48,7 @@ set /p "dckey=>"
 if NOT %dckey% LEQ 26 goto DCFAIL
 echo Please Enter Your Converted Letter
 set /p "dcresult=>"
-
+if 
 :EC
 color 09
 timeout /t 1 /nobreak > NUL
