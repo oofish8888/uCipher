@@ -45,6 +45,8 @@ color 09
 timeout /t 1 /nobreak > NUL
 cls
 echo Please enter your key to Decipher
+set /p "dckey=>"
+if NOT %dckey% LEQ 26 goto DCFAIL
 :EC
 color 09
 timeout /t 1 /nobreak > NUL
@@ -97,3 +99,10 @@ echo Successfully Converted Letter
 echo Please remember your key so you can decipher the letter. %eckey% is your key, and the converted letter is %result%
 pause
 goto START
+:DCFAIL
+color 04
+timeout /t 1 /nobreak > NUL
+cls
+echo Invalid Key. Please try again.
+timeout /t 2 /nobreak > NUL
+goto DC
