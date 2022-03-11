@@ -38,6 +38,34 @@ if %choi%==2 goto EC
 color 04 
 echo Incorrect choice
 timeout /t 2 /nobreak > NUL
+color 09
 goto START
 :DC
 :EC
+color 09
+timeout /t 1 /nobreak > NUL
+cls
+echo Enter letter to Encipher
+set /p "ecletter=>"
+if %ecletter%==a set eclettertc = 1
+if %ecletter%==b set eclettertc = 2
+if %ecletter%==c set eclettertc = 3
+if %ecletter%==d set eclettertc = 4
+if %ecletter%==e set eclettertc = 5
+if %ecletter%==f set eclettertc = 6
+if %ecletter%==g set eclettertc = 7
+if %ecletter%==h set eclettertc = 8
+if %ecletter%==i set eclettertc = 9
+if %ecletter%==j set eclettertc = 10
+if %ecletter%==k set eclettertc = 11
+
+
+
+
+
+
+
+
+
+
+
