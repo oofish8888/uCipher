@@ -48,7 +48,13 @@ set /p "dckey=>"
 if NOT %dckey% LEQ 26 goto DCFAIL
 echo Please Enter Your Converted Letter
 set /p "dcresult=>"
-if 
+set /a dcunconv=%dcresult%-%dckey%
+timeout /t 1 /nobreak > NUL
+echo Please Wait, Converting Letter...
+timeout /t 1 /nobreak > NUL
+echo Done! Your Deciphered Letter is %dcunconv%!
+pause
+goto CHOI
 :EC
 color 09
 timeout /t 1 /nobreak > NUL
@@ -96,7 +102,7 @@ color 09
 echo Please Wait, Generating key and letter code...
 timeout /t 1 /nobreak > NUL
 set /a eckey=%random% %%26 +1
-set /a result= %eckey%+%eclettertc%
+set /a result=%eckey%+%eclettertc%
 echo Successfully Converted Letter
 echo Please remember your key so you can decipher the letter. %eckey% is your key, and the converted letter is %result%
 pause
