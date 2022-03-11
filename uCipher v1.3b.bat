@@ -27,9 +27,7 @@ echo                                              p:::::p
 echo                                             p:::::::p                                                                                                                                                            
 echo                                             p:::::::p                                                                                                                                                            
 echo                                             p:::::::p                                                                                                                                                            
-echo                                             ppppppppp                                                                                                                                                            
-echo                                                                                                                                                                                                                  
-echo Message 
+echo                                             ppppppppp                                                                                                                                                                                                                                                                                                                                                                              
 timeout /t 1 /nobreak > NUL
 echo Choose an option
 echo (1 Decipher Message
