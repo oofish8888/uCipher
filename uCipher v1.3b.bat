@@ -41,6 +41,10 @@ timeout /t 2 /nobreak > NUL
 color 09
 goto START
 :DC
+color 09
+timeout /t 1 /nobreak > NUL
+cls
+echo Please enter your key to Decipher
 :EC
 color 09
 timeout /t 1 /nobreak > NUL
@@ -90,6 +94,6 @@ timeout /t 1 /nobreak > NUL
 set /a eckey=%random% %%26 +1
 set /a result= %eckey%+%eclettertc%
 echo Successfully Converted Letter
-echo your key is %eckey%, and the converted letter is %result
+echo Please remember your key so you can decipher the letter. %eckey% is your key, and the converted letter is %result%
 pause
 goto START
