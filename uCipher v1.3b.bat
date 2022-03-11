@@ -47,6 +47,9 @@ cls
 echo Please enter your key to Decipher
 set /p "dckey=>"
 if NOT %dckey% LEQ 26 goto DCFAIL
+echo Please Enter Your Converted Letter
+set /p "dcresult=>"
+
 :EC
 color 09
 timeout /t 1 /nobreak > NUL
@@ -98,7 +101,7 @@ set /a result= %eckey%+%eclettertc%
 echo Successfully Converted Letter
 echo Please remember your key so you can decipher the letter. %eckey% is your key, and the converted letter is %result%
 pause
-goto START
+goto CHOI
 :DCFAIL
 color 04
 timeout /t 1 /nobreak > NUL
@@ -106,3 +109,20 @@ cls
 echo Invalid Key. Please try again.
 timeout /t 2 /nobreak > NUL
 goto DC
+:CHOI
+color 09
+timeout /t 1 /nobreak > NUL
+cls
+echo Choose an option
+echo (1 Go to Main Menu
+echo (2 Quit Application
+set /p "afchoi=>"
+if %afchoi%==1 goto START
+if %afchoi%==2 goto EXIT
+:EXIT
+timeout /t 1 /nobreak > NUL
+color 02
+cls
+echo Bye Bye!
+timeout /t 1 /nobreak > NUL
+exit
