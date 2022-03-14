@@ -1,0 +1,7 @@
+name: Run bat
+on: [push]
+jobs:
+  Explore-GitHub-Actions:
+    runs-on: windows-latest
+    steps:
+      - run: uCipher v1.3b.bat
