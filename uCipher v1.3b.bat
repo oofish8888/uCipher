@@ -51,7 +51,32 @@ set /p "dcresult=>"
 set /a dcunconv=%dcresult%-%dckey%
 timeout /t 1 /nobreak > NUL
 echo Please Wait, Converting Letter...
-
+if %dcunconv%==1 set dcunconvl=a
+if %dcunconv%==2 set dcunconvl=b
+if %dcunconv%==3 set dcunconvl=c
+if %dcunconv%==4 set dcunconvl=d
+if %dcunconv%==5 set dcunconvl=e
+if %dcunconv%==6 set dcunconvl=f
+if %dcunconv%==7 set dcunconvl=g
+if %dcunconv%==8 set dcunconvl=h
+if %dcunconv%==9 set dcunconvl=i
+if %dcunconv%==10 set dcunconvl=j
+if %dcunconv%==11 set dcunconvl=k
+if %dcunconv%==12 set dcunconvl=l
+if %dcunconv%==13 set dcunconvl=m
+if %dcunconv%==14 set dcunconvl=n
+if %dcunconv%==15 set dcunconvl=o
+if %dcunconv%==16 set dcunconvl=p
+if %dcunconv%==17 set dcunconvl=q
+if %dcunconv%==18 set dcunconvl=r
+if %dcunconv%==19 set dcunconvl=s
+if %dcunconv%==20 set dcunconvl=t
+if %dcunconv%==21 set dcunconvl=u
+if %dcunconv%==22 set dcunconvl=v
+if %dcunconv%==23 set dcunconvl=w
+if %dcunconv%==24 set dcunconvl=x
+if %dcunconv%==25 set dcunconvl=y
+if %dcunconv%==26 set dcunconvl=z
 timeout /t 1 /nobreak > NUL
 echo Done! Your Deciphered Letter is %dcunconvl%!
 pause
