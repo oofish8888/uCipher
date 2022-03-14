@@ -61,32 +61,32 @@ timeout /t 1 /nobreak > NUL
 cls
 echo Enter letter to Encipher
 set /p "ecletter=>"
-if %ecletter%==a set eclettertc = 1 && goto ECS
-if %ecletter%==b set eclettertc = 2 && goto ECS
-if %ecletter%==c set eclettertc = 3 && goto ECS
-if %ecletter%==d set eclettertc = 4 && goto ECS
-if %ecletter%==e set eclettertc = 5 && goto ECS
-if %ecletter%==f set eclettertc = 6 && goto ECS
-if %ecletter%==g set eclettertc = 7 && goto ECS
-if %ecletter%==h set eclettertc = 8 && goto ECS
-if %ecletter%==i set eclettertc = 9 && goto ECS
-if %ecletter%==j set eclettertc = 10 && goto ECS
-if %ecletter%==k set eclettertc = 11 && goto ECS
-if %ecletter%==l set eclettertc = 12 && goto ECS
-if %ecletter%==m set eclettertc = 13 && goto ECS
-if %ecletter%==n set eclettertc = 14 && goto ECS
-if %ecletter%==o set eclettertc = 15 && goto ECS
-if %ecletter%==p set eclettertc = 16 && goto ECS
-if %ecletter%==q set eclettertc = 17 && goto ECS
-if %ecletter%==r set eclettertc = 18 && goto ECS
-if %ecletter%==s set eclettertc = 19 && goto ECS
-if %ecletter%==t set eclettertc = 20 && goto ECS
-if %ecletter%==u set eclettertc = 21 && goto ECS
-if %ecletter%==v set eclettertc = 22 && goto ECS
-if %ecletter%==w set eclettertc = 23 && goto ECS
-if %ecletter%==x set eclettertc = 24 && goto ECS
-if %ecletter%==y set eclettertc = 25 && goto ECS
-if %ecletter%==z set eclettertc = 26 && goto ECS
+if %ecletter%==a set eclettertc=1 && goto ECS
+if %ecletter%==b set eclettertc=2 && goto ECS
+if %ecletter%==c set eclettertc=3 && goto ECS
+if %ecletter%==d set eclettertc=4 && goto ECS
+if %ecletter%==e set eclettertc=5 && goto ECS
+if %ecletter%==f set eclettertc=6 && goto ECS
+if %ecletter%==g set eclettertc=7 && goto ECS
+if %ecletter%==h set eclettertc=8 && goto ECS
+if %ecletter%==i set eclettertc=9 && goto ECS
+if %ecletter%==j set eclettertc=10 && goto ECS
+if %ecletter%==k set eclettertc=11 && goto ECS
+if %ecletter%==l set eclettertc=12 && goto ECS
+if %ecletter%==m set eclettertc=13 && goto ECS
+if %ecletter%==n set eclettertc=14 && goto ECS
+if %ecletter%==o set eclettertc=15 && goto ECS
+if %ecletter%==p set eclettertc=16 && goto ECS
+if %ecletter%==q set eclettertc=17 && goto ECS
+if %ecletter%==r set eclettertc=18 && goto ECS
+if %ecletter%==s set eclettertc=19 && goto ECS
+if %ecletter%==t set eclettertc=20 && goto ECS
+if %ecletter%==u set eclettertc=21 && goto ECS
+if %ecletter%==v set eclettertc=22 && goto ECS
+if %ecletter%==w set eclettertc=23 && goto ECS
+if %ecletter%==x set eclettertc=24 && goto ECS
+if %ecletter%==y set eclettertc=25 && goto ECS
+if %ecletter%==z set eclettertc=26 && goto ECS
 timeout /t 1 /nobreak > NUL
 cls
 color 04
