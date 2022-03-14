@@ -51,8 +51,9 @@ set /p "dcresult=>"
 set /a dcunconv=%dcresult%-%dckey%
 timeout /t 1 /nobreak > NUL
 echo Please Wait, Converting Letter...
+
 timeout /t 1 /nobreak > NUL
-echo Done! Your Deciphered Letter is %dcunconv%!
+echo Done! Your Deciphered Letter is %dcunconvl%!
 pause
 goto CHOI
 :EC
