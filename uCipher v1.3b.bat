@@ -152,8 +152,8 @@ if %afchoi%==1 goto START
 if %afchoi%==2 goto EXIT
 :EXIT
 timeout /t 1 /nobreak > NUL
-color 02
 cls
+color 02
 echo Bye Bye!
 timeout /t 1 /nobreak > NUL
 exit
