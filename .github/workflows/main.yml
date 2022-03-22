@@ -1,7 +1,0 @@
-name: Run bat
-on: [push]
-jobs:
-  Run-bat:
-    runs-on: windows-latest
-    steps:
-      - run: "uCipher v1.3b.bat"
